@@ -1,0 +1,22 @@
+{
+	"name"	: "nikhil/myauth",
+	"description"	: "My first package",
+	"authors"	:[
+		{
+			"name"	: "Nikhil Chinchane",
+			"email"	: "n.chinchane@aexonic.com"
+		}
+	],
+	"minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nikhil\\Authentication\\": "src/"
+        }
+    }
+
+
+
+}
